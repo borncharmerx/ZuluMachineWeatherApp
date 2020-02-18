@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0F4E833A2DCE368F269327 /* Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5834EF3E485B925C8F8B0B68 /* Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework */; };
+		48BB204F0626A43BD4589D2C /* Pods_ZuluMachineWeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4350C5CC763EE393D4377B1B /* Pods_ZuluMachineWeatherAppTests.framework */; };
 		48FF175523FC8EAC006D647F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175423FC8EAC006D647F /* AppDelegate.swift */; };
 		48FF175723FC8EAC006D647F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175623FC8EAC006D647F /* SceneDelegate.swift */; };
 		48FF175923FC8EAC006D647F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175823FC8EAC006D647F /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		48FF176123FC8EAE006D647F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FF175F23FC8EAE006D647F /* LaunchScreen.storyboard */; };
 		48FF176C23FC8EAE006D647F /* ZuluMachineWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF176B23FC8EAE006D647F /* ZuluMachineWeatherAppTests.swift */; };
 		48FF177723FC8EAE006D647F /* ZuluMachineWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF177623FC8EAE006D647F /* ZuluMachineWeatherAppUITests.swift */; };
+		A9F20CCE32C709C00153D99B /* Pods_ZuluMachineWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62C43DE043EF4448DC0F024 /* Pods_ZuluMachineWeatherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4350C5CC763EE393D4377B1B /* Pods_ZuluMachineWeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZuluMachineWeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FF175123FC8EAC006D647F /* ZuluMachineWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuluMachineWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FF175423FC8EAC006D647F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FF175623FC8EAC006D647F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		48FF177223FC8EAE006D647F /* ZuluMachineWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuluMachineWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FF177623FC8EAE006D647F /* ZuluMachineWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuluMachineWeatherAppUITests.swift; sourceTree = "<group>"; };
 		48FF177823FC8EAE006D647F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834EF3E485B925C8F8B0B68 /* Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B88A8189DFB65ECC4129AE6 /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests/Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65C65B2390666075C5B0A39E /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests/Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C268E9906E463516FFEA48F /* Pods-ZuluMachineWeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherAppTests/Pods-ZuluMachineWeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DE9854F0AE4563EEC6E250 /* Pods-ZuluMachineWeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherAppTests/Pods-ZuluMachineWeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99D291DC733F0B09583000C /* Pods-ZuluMachineWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherApp/Pods-ZuluMachineWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F62C43DE043EF4448DC0F024 /* Pods_ZuluMachineWeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZuluMachineWeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83FB4008787AD9FFEDF40E6 /* Pods-ZuluMachineWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuluMachineWeatherApp.release.xcconfig"; path = "Target Support Files/Pods-ZuluMachineWeatherApp/Pods-ZuluMachineWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F20CCE32C709C00153D99B /* Pods_ZuluMachineWeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BB204F0626A43BD4589D2C /* Pods_ZuluMachineWeatherAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0F4E833A2DCE368F269327 /* Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				48FF176A23FC8EAE006D647F /* ZuluMachineWeatherAppTests */,
 				48FF177523FC8EAE006D647F /* ZuluMachineWeatherAppUITests */,
 				48FF175223FC8EAC006D647F /* Products */,
+				CDA8CC776BE24BC8A3BC7369 /* Pods */,
+				6500BAEBE91E231DB5FAD2A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = ZuluMachineWeatherAppUITests;
 			sourceTree = "<group>";
 		};
+		6500BAEBE91E231DB5FAD2A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62C43DE043EF4448DC0F024 /* Pods_ZuluMachineWeatherApp.framework */,
+				5834EF3E485B925C8F8B0B68 /* Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests.framework */,
+				4350C5CC763EE393D4377B1B /* Pods_ZuluMachineWeatherAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA8CC776BE24BC8A3BC7369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99D291DC733F0B09583000C /* Pods-ZuluMachineWeatherApp.debug.xcconfig */,
+				F83FB4008787AD9FFEDF40E6 /* Pods-ZuluMachineWeatherApp.release.xcconfig */,
+				65C65B2390666075C5B0A39E /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.debug.xcconfig */,
+				5B88A8189DFB65ECC4129AE6 /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.release.xcconfig */,
+				B9DE9854F0AE4563EEC6E250 /* Pods-ZuluMachineWeatherAppTests.debug.xcconfig */,
+				8C268E9906E463516FFEA48F /* Pods-ZuluMachineWeatherAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48FF177B23FC8EAE006D647F /* Build configuration list for PBXNativeTarget "ZuluMachineWeatherApp" */;
 			buildPhases = (
+				EC43E310AA5229C4E4455543 /* [CP] Check Pods Manifest.lock */,
 				48FF174D23FC8EAC006D647F /* Sources */,
 				48FF174E23FC8EAC006D647F /* Frameworks */,
 				48FF174F23FC8EAC006D647F /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48FF177E23FC8EAE006D647F /* Build configuration list for PBXNativeTarget "ZuluMachineWeatherAppTests" */;
 			buildPhases = (
+				D5F4CBD105F7225BE6936E4F /* [CP] Check Pods Manifest.lock */,
 				48FF176323FC8EAE006D647F /* Sources */,
 				48FF176423FC8EAE006D647F /* Frameworks */,
 				48FF176523FC8EAE006D647F /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48FF178123FC8EAE006D647F /* Build configuration list for PBXNativeTarget "ZuluMachineWeatherAppUITests" */;
 			buildPhases = (
+				71C5FA9E0060633CA0DFC490 /* [CP] Check Pods Manifest.lock */,
 				48FF176E23FC8EAE006D647F /* Sources */,
 				48FF176F23FC8EAE006D647F /* Frameworks */,
 				48FF177023FC8EAE006D647F /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C5FA9E0060633CA0DFC490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F4CBD105F7225BE6936E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZuluMachineWeatherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC43E310AA5229C4E4455543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZuluMachineWeatherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48FF174D23FC8EAC006D647F /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		48FF177C23FC8EAE006D647F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99D291DC733F0B09583000C /* Pods-ZuluMachineWeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +563,7 @@
 		};
 		48FF177D23FC8EAE006D647F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83FB4008787AD9FFEDF40E6 /* Pods-ZuluMachineWeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +581,7 @@
 		};
 		48FF177F23FC8EAE006D647F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DE9854F0AE4563EEC6E250 /* Pods-ZuluMachineWeatherAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +603,7 @@
 		};
 		48FF178023FC8EAE006D647F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C268E9906E463516FFEA48F /* Pods-ZuluMachineWeatherAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +625,7 @@
 		};
 		48FF178223FC8EAE006D647F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C65B2390666075C5B0A39E /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +645,7 @@
 		};
 		48FF178323FC8EAE006D647F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B88A8189DFB65ECC4129AE6 /* Pods-ZuluMachineWeatherApp-ZuluMachineWeatherAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
