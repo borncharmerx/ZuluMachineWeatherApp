@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests : NSObject
-@end
-@implementation PodsDummy_Pods_ZuluMachineWeatherApp_ZuluMachineWeatherAppUITests
-@end
