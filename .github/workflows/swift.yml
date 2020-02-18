@@ -6,7 +6,7 @@ jobs:
   build:
     name: Build
     env:
-      SCHEME: "Actions"
+      SCHEME: "ZuluMachineWeatherApp"
       DEVICE: "iPhone 11"
       DERIVED_DATA_PATH: "DerivedData"
     runs-on: macOS-latest
@@ -27,7 +27,7 @@ jobs:
     env:
       DEVICE: "iPhone 11"
       DERIVED_DATA_PATH: "DerivedData"
-      UNIT_TEST_TARGET: "ActionsTests"
+      UNIT_TEST_TARGET: "ZuluMachineWeatherAppTests"
     runs-on: macOS-latest
     needs: build
     steps:
@@ -51,7 +51,7 @@ jobs:
     env:
       DEVICE: "iPhone 11"
       DERIVED_DATA_PATH: "DerivedData"
-      UI_TEST_TARGET: "ActionsUITests"
+      UI_TEST_TARGET: "ZuluMachineWeatherAppUITests"
     runs-on: macOS-latest
     needs: build
     steps:
