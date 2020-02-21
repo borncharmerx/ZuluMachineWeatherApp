@@ -67,8 +67,7 @@ jobs:
       
   analyze:
     name: Static analyze
-    env:
-      DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
+    env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     runs-on: macOS-latest
     needs: unit_test
     steps:
