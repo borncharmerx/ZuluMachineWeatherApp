@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481A961723FDC8DC00451483 /* WeatherMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A961623FDC8DC00451483 /* WeatherMainViewController.swift */; };
+		481A961B23FDC96600451483 /* WeatherMainViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A961A23FDC96600451483 /* WeatherMainViewContract.swift */; };
+		481A961D23FDC9AB00451483 /* WeatherMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A961C23FDC9AB00451483 /* WeatherMainViewModel.swift */; };
+		481A961F23FDD01500451483 /* WeatherMainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A961E23FDD01500451483 /* WeatherMainViewModelTests.swift */; };
+		481A962223FDD0BD00451483 /* WeatherMainMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A962123FDD0BD00451483 /* WeatherMainMockView.swift */; };
 		48FF175523FC8EAC006D647F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175423FC8EAC006D647F /* AppDelegate.swift */; };
 		48FF175723FC8EAC006D647F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175623FC8EAC006D647F /* SceneDelegate.swift */; };
 		48FF175923FC8EAC006D647F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF175823FC8EAC006D647F /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481A961623FDC8DC00451483 /* WeatherMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainViewController.swift; sourceTree = "<group>"; };
+		481A961A23FDC96600451483 /* WeatherMainViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainViewContract.swift; sourceTree = "<group>"; };
+		481A961C23FDC9AB00451483 /* WeatherMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainViewModel.swift; sourceTree = "<group>"; };
+		481A961E23FDD01500451483 /* WeatherMainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainViewModelTests.swift; sourceTree = "<group>"; };
+		481A962123FDD0BD00451483 /* WeatherMainMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainMockView.swift; sourceTree = "<group>"; };
 		48FF175123FC8EAC006D647F /* ZuluMachineWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuluMachineWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FF175423FC8EAC006D647F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FF175623FC8EAC006D647F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +86,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481A961323FDC40000451483 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		481A961423FDC42300451483 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		481A961523FDC80600451483 /* WeatherMain */ = {
+			isa = PBXGroup;
+			children = (
+				481A961823FDC90300451483 /* View */,
+				481A961923FDC90F00451483 /* ViewModel */,
+			);
+			path = WeatherMain;
+			sourceTree = "<group>";
+		};
+		481A961823FDC90300451483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				481A961623FDC8DC00451483 /* WeatherMainViewController.swift */,
+				481A961A23FDC96600451483 /* WeatherMainViewContract.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		481A961923FDC90F00451483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				481A961C23FDC9AB00451483 /* WeatherMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		481A962023FDD09400451483 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				481A962123FDD0BD00451483 /* WeatherMainMockView.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		48FF174823FC8EAC006D647F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +157,9 @@
 		48FF175323FC8EAC006D647F /* ZuluMachineWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				481A961523FDC80600451483 /* WeatherMain */,
+				481A961423FDC42300451483 /* Services */,
+				481A961323FDC40000451483 /* Data */,
 				48FF175423FC8EAC006D647F /* AppDelegate.swift */,
 				48FF175623FC8EAC006D647F /* SceneDelegate.swift */,
 				48FF175823FC8EAC006D647F /* ViewController.swift */,
@@ -113,8 +174,10 @@
 		48FF176A23FC8EAE006D647F /* ZuluMachineWeatherAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				481A962023FDD09400451483 /* Mocks */,
 				48FF176B23FC8EAE006D647F /* ZuluMachineWeatherAppTests.swift */,
 				48FF176D23FC8EAE006D647F /* Info.plist */,
+				481A961E23FDD01500451483 /* WeatherMainViewModelTests.swift */,
 			);
 			path = ZuluMachineWeatherAppTests;
 			sourceTree = "<group>";
@@ -261,7 +324,10 @@
 			files = (
 				48FF175923FC8EAC006D647F /* ViewController.swift in Sources */,
 				48FF175523FC8EAC006D647F /* AppDelegate.swift in Sources */,
+				481A961723FDC8DC00451483 /* WeatherMainViewController.swift in Sources */,
 				48FF175723FC8EAC006D647F /* SceneDelegate.swift in Sources */,
+				481A961D23FDC9AB00451483 /* WeatherMainViewModel.swift in Sources */,
+				481A961B23FDC96600451483 /* WeatherMainViewContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481A962223FDD0BD00451483 /* WeatherMainMockView.swift in Sources */,
+				481A961F23FDD01500451483 /* WeatherMainViewModelTests.swift in Sources */,
 				48FF176C23FC8EAE006D647F /* ZuluMachineWeatherAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
