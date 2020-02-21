@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import ZuluMachineWeatherApp
+
+class WeatherMainMockView: WeatherMainViewContract {
+    
+}
