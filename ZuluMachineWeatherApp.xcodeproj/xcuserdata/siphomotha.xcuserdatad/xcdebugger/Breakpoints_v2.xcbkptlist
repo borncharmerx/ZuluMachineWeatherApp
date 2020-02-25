@@ -23,32 +23,84 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0030CB4A-56F7-4B17-9D53-A2370C750DEE"
+            uuid = "C5A8668F-D64F-4663-80DC-0EEFEAEDBD76"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZuluMachineWeatherApp/WeatherMain/View/WeatherMainViewController.swift"
+            filePath = "ZuluMachineWeatherAppTests/WeatherServiceTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testGetCurrentWeather_Not_Be_Nil()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5D5C4B18-A9A2-434E-B2CA-DD5596F3C918"
+            uuid = "CEE33CFD-8A8A-4425-BB73-6EF207766C17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZuluMachineWeatherAppTests/WeatherServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testGetCurrentWeather_Not_Be_Nil()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "A0210201-DEB9-459B-83FF-D4A021A414F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "AFCD6A37-B3A9-42FE-A0F7-F5D75D8D2756"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "433CE99E-D9C6-423C-A46E-545457E2ACEA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZuluMachineWeatherApp/WeatherMain/View/WeatherMainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "hideLoadingIndicator()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF3C762A-9B3D-4A63-834A-542CA175F532"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZuluMachineWeatherAppTests/Mocks/WeatherMainMockView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
+            landmarkName = "hideLoadingIndicator()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

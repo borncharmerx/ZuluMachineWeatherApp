@@ -9,6 +9,9 @@
 import Foundation
 
 public protocol WeatherMainViewContract {
-    
+    func updatedCurrentWeather(currentTemp: String, minTemp: String, maxTemp: String, weatherDescription: String)
+    func showLoadingIndicator()
+    func hideLoadingIndicator()
+    func showRetryErrorState()
 }
 
