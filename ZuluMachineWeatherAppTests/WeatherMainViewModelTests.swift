@@ -126,14 +126,20 @@ class WeatherMainViewModelTests: XCTestCase {
     }
     
     func testGetDateFromEpochTimeShouldReturnExpectedDayWithTime() {
-        let expectedResults = "Monday 9 PM"
+        var expectedResults = "Monday 9 PM"
+        if TimeZone.current == TimeZone(abbreviation: "UTC") {
+            expectedResults = "Monday 7 PM"
+        }
         let results = viewModel?.getDateFromEpochTime(epochTime: 1582572297, dateFormatType: .day)
         
         XCTAssertEqual(results, expectedResults)
     }
     
     func testGetDateFromEpochTimeShouldReturnExpectedDateWithTime() {
-        let expectedResults = "24/02/2020 9:24 PM"
+        var expectedResults = "24/02/2020 9:24 PM"
+        if TimeZone.current == TimeZone(abbreviation: "UTC") {
+            expectedResults = "24/02/2020 7:24 PM"
+        }
         let results = viewModel?.getDateFromEpochTime(epochTime: 1582572297, dateFormatType: .date)
         
         XCTAssertEqual(results, expectedResults)
