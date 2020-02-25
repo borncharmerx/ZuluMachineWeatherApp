@@ -25,7 +25,7 @@ jobs:
   unit_test:
     name: Unit test
     env:
-      TZ: "Africa/Johannesburg"
+      TZ: Africa/Johannesburg
       DEVICE: "iPhone 11"
       DERIVED_DATA_PATH: "DerivedData"
       UNIT_TEST_TARGET: "ZuluMachineWeatherAppTests"
